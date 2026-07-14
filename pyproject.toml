@@ -4,9 +4,9 @@ version = "0.1.0"
 description = "Prototype: cache steering as a multi-agent communication protocol"
 authors = [{name = "Hermes Agent"}]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<3.12"
 dependencies = [
-    "torch>=2.13",
+    "torch==2.11.0+cu128",
     "transformers>=5.13",
     "accelerate>=1.0",
     "pyyaml>=6.0",
