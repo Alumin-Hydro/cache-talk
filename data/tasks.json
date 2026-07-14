@@ -1,0 +1,27 @@
+[
+  {
+    "id": "arithmetic_1",
+    "question": "What is 17 plus 25?",
+    "answer": "42"
+  },
+  {
+    "id": "arithmetic_2",
+    "question": "If a train travels 60 km per hour, how far does it go in 3.5 hours?",
+    "answer": "210"
+  },
+  {
+    "id": "logic_1",
+    "question": "There are three boxes. Only one contains a prize. After you pick box 1, the host opens box 3 and shows it is empty. Should you switch to box 2?",
+    "answer": "Yes"
+  },
+  {
+    "id": "logic_2",
+    "question": "A bat and a ball cost 11 dollars in total. The bat costs 10 dollars more than the ball. How much does the ball cost?",
+    "answer": "0.5"
+  },
+  {
+    "id": "commonsense_1",
+    "question": "Why might someone prefer a laptop over a desktop computer?",
+    "answer": "Portability"
+  }
+]
