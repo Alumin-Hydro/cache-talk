@@ -6,7 +6,7 @@ authors = [{name = "Hermes Agent"}]
 readme = "README.md"
 requires-python = ">=3.11,<3.12"
 dependencies = [
-    "torch==2.11.0+cu128",
+    "torch>=2.11.0",
     "transformers>=5.13",
     "accelerate>=1.0",
     "pyyaml>=6.0",
@@ -34,3 +34,6 @@ explicit = true
 torch = [
     { index = "pytorch-cu128", marker = "sys_platform == 'win32'" },
 ]
+
+[tool.uv.environments]
+platform = "sys_platform == 'win32'"
